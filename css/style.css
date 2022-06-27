@@ -70,6 +70,37 @@
     color: var(--primary);
 }
 
+
+.cita{
+  
+  background-image: url("../img/blog-32.png");
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+.ubicacion{
+  
+  background-image: url("../img/esperanza.png");
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+/*.cita::after{
+  content:""!important;
+  position:absolute!important;
+  top:0!important;
+  left:0!important;
+  width:100%!important;
+  height:100%!important;
+  background:rgba(0,0,0,0.6)!important;
+  z-index:-1!important;}*/
+
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link::before {
         position: absolute;
@@ -97,9 +128,29 @@
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background: url(../img/banner2.png) top right no-repeat;
     background-size: cover;
 }
+
+.cita{
+  
+  background-image: url("../img/blog-32.png");
+  background-size: cover; 
+}
+.ubicacion{
+  
+  background-image: url("../img/esperanza.png");
+  background-size: cover; 
+}
+/*.cita::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  z-index:-1;}*/
 
 .service-item {
     position: relative;
@@ -186,7 +237,7 @@
 
 .team-carousel .owl-nav {
     position: absolute;
-    padding: 0 45px;
+    padding: 0 10px;
     width: 100%;
     height: 45px;
     top: calc(50% - 22.5px);
