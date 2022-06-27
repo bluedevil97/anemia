@@ -91,6 +91,22 @@
   background-attachment: fixed;
  
 }
+.puntos{
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.zoom{
+        /* Aumentamos la anchura y altura durante 2 segundos */
+        transition: width 2s, height 2s, transform 2s;
+    }
+    .zoom:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(2);
+    }
 /*.cita::after{
   content:""!important;
   position:absolute!important;
